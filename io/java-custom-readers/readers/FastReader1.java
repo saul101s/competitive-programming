@@ -3,7 +3,6 @@ package readers;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.EOFException;
 
 public class FastReader1
 { 
@@ -150,8 +149,13 @@ public class FastReader1
         return ret;
     }
 
-    public boolean canReadMore()
+    public boolean canReadMore() throws IOException
     {
+        if (bufferPointer == bytesRead)
+        {
+            fillBuffer();
+        }
+
         return bytesRead != -1;
     }
 

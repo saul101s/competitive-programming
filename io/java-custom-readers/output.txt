@@ -4,12 +4,12 @@ Reading input.txt 500 times per reader
 Fast reader 1
 ====================
 
-Total execution time: 6.404170314
-Average execution time: 0.012808340628
+Total execution time: 3.746945278
+Average execution time: 0.007493890556
 
 ====================
 Fast reader 2
 ====================
 
-Total execution time: 33.032493399
-Average execution time: 0.066064986798
+Total execution time: 21.471533642
+Average execution time: 0.042943067284

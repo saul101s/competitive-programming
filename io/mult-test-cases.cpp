@@ -123,7 +123,7 @@ while (!line.empty())
 
     while (getline(ss, s_num, ' '))
     {
-        inum = atoi(s_num.c_str());
+        i_num = atoi(s_num.c_str());
         ans += i_num;
     }
 

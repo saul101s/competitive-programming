@@ -1,5 +1,5 @@
 
-FileReader fr = new FileReader("input.txt");
+FastReader fr = new FastReader("input.txt");
 
 /*
  * Number of test cases appears at first line
@@ -130,7 +130,7 @@ while (!line.empty())
 
     while (getline(ss, s_num, ' '))
     {
-        inum = atoi(s_num.c_str());
+        i_num = atoi(s_num.c_str());
         ans += i_num;
     }
 

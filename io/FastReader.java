@@ -1,8 +1,10 @@
+package readers;
+
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FastReader 
+public class FastReader
 { 
     final private int BUFFER_SIZE = 1 << 16; // 2^16
     private DataInputStream din;
@@ -16,9 +18,9 @@ public class FastReader
         bufferPointer = bytesRead = 0;
     }
 
-    public FastReader(String file_name) throws IOException
+    public FastReader(String fileName) throws IOException
     {
-        din = new DataInputStream(new FileInputStream(file_name));
+        din = new DataInputStream(new FileInputStream(fileName));
         buffer = new byte[BUFFER_SIZE];
         bufferPointer = bytesRead = 0;
     }
@@ -145,6 +147,16 @@ public class FastReader
         }
 
         return ret;
+    }
+
+    public boolean canReadMore() throws IOException
+    {
+        if (bufferPointer == bytesRead)
+        {
+            fillBuffer();
+        }
+
+        return bytesRead != -1;
     }
 
     private void fillBuffer() throws IOException
