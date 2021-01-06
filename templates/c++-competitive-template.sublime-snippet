@@ -1,0 +1,43 @@
+<snippet>
+    <content>
+<![CDATA[
+#include<bits/stdc++.h>
+using namespace std;
+
+void solve();
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    freopen("error.txt", "w", stderr);
+    #endif
+
+    int t = 1;
+    ${1:/*is Single Test case?*/}scanf("%d", &t);
+
+    while (t--)
+    {
+        solve();
+        printf("\n");
+    }
+
+    cerr << "time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
+    return 0;
+}
+
+void solve()
+{
+    $2
+}
+
+]]>
+    
+</content>
+    <tabTrigger>comp</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>
