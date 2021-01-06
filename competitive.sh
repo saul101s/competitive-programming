@@ -1,15 +1,12 @@
 #!/bin/bash
 
-if [ "$1" = "close" ]; then
-    subl --command "close_all"
-    pkill subl
-    exit
-fi
+filename=$1
+extension="${filename##*.}"
 
-if [ -e $1 ]; then
+if [ -e filename ]; then
     echo "File $1 already exists"
 else
-    touch $1
+    cp ~/Developer/competitive-programming/templates/competitive-template.$extension ./filename
 fi
 
 if [ -e input.txt ]; then
@@ -30,8 +27,4 @@ else
     touch error.txt
 fi
 
-subl --command "focus_group { \"group\": 0 }" && subl $1
-subl --command "focus_group { \"group\": 1 }" && subl output.txt
-subl --command "focus_group { \"group\": 2 }" && subl error.txt
-subl --command "focus_group { \"group\": 3 }" && subl input.txt
-subl --command "focus_group { \"group\": 0 }"
+geany filename &

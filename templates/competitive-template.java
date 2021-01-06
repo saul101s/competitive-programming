@@ -1,6 +1,3 @@
-<snippet>
-<content>
-<![CDATA[
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -110,11 +107,3 @@ class Solver
         Main.output = Main.output.concat("Solution\n");
     }
 }
-
-
-]]>
-    
-</content>
-    <tabTrigger>comp</tabTrigger>
-    <scope>source.java</scope>
-</snippet>

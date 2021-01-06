@@ -1,6 +1,3 @@
-<snippet>
-    <content>
-<![CDATA[
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +15,7 @@ int main()
     #endif
 
     int t = 1;
-    ${1:/*is Single Test case?*/}scanf("%d", &t);
+    scanf("%d", &t);
 
     while (t--)
     {
@@ -32,12 +29,5 @@ int main()
 
 void solve()
 {
-    $2
-}
 
-]]>
-    
-</content>
-    <tabTrigger>comp</tabTrigger>
-    <scope>source.c++</scope>
-</snippet>
+}
