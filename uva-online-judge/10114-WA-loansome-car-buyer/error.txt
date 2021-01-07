@@ -1,0 +1,241 @@
+Car price: 15500
+Car price after driving: 13950
+Next rec: 1 - 0.03
+Next rec: 3 - 0.002
+Depreciation: 0.03
+Current month: 1, Record month: 3
+Loan - Car price: 14500 - 13531.5
+==============================
+Depreciation: 0.03
+Current month: 2, Record month: 3
+Loan - Car price: 14000 - 13125.6
+==============================
+Depreciation: 0.002
+Current month: 3, Month: 30
+Loan - Car price: 13500 - 13099.3
+==============================
+Depreciation: 0.002
+Current month: 4, Month: 30
+Loan - Car price: 13000 - 13073.1
+==============================
+Months: 4
+
+
+Car price: 10500
+Car price after driving: 9974.99
+Next rec: 2 - 0.1
+Depreciation: 0
+Current month: 1, Record month: 2
+Loan - Car price: 9499.99 - 9974.99
+==============================
+Months: 1
+
+
+Car price: 30500
+Car price after driving: 24400
+Next rec: 1 - 0.05
+Next rec: 12 - 0.025
+Depreciation: 0.05
+Current month: 1, Record month: 12
+Loan - Car price: 29500 - 23180
+==============================
+Depreciation: 0.05
+Current month: 2, Record month: 12
+Loan - Car price: 29000 - 22021
+==============================
+Depreciation: 0.05
+Current month: 3, Record month: 12
+Loan - Car price: 28500 - 20919.9
+==============================
+Depreciation: 0.05
+Current month: 4, Record month: 12
+Loan - Car price: 28000 - 19874
+==============================
+Depreciation: 0.05
+Current month: 5, Record month: 12
+Loan - Car price: 27500 - 18880.3
+==============================
+Depreciation: 0.05
+Current month: 6, Record month: 12
+Loan - Car price: 27000 - 17936.2
+==============================
+Depreciation: 0.05
+Current month: 7, Record month: 12
+Loan - Car price: 26500 - 17039.4
+==============================
+Depreciation: 0.05
+Current month: 8, Record month: 12
+Loan - Car price: 26000 - 16187.5
+==============================
+Depreciation: 0.05
+Current month: 9, Record month: 12
+Loan - Car price: 25500 - 15378.1
+==============================
+Depreciation: 0.05
+Current month: 10, Record month: 12
+Loan - Car price: 25000 - 14609.2
+==============================
+Depreciation: 0.05
+Current month: 11, Record month: 12
+Loan - Car price: 24500 - 13878.7
+==============================
+Depreciation: 0.025
+Current month: 12, Month: 60
+Loan - Car price: 24000 - 13531.8
+==============================
+Depreciation: 0.025
+Current month: 13, Month: 60
+Loan - Car price: 23500 - 13193.5
+==============================
+Depreciation: 0.025
+Current month: 14, Month: 60
+Loan - Car price: 23000 - 12863.6
+==============================
+Depreciation: 0.025
+Current month: 15, Month: 60
+Loan - Car price: 22500 - 12542
+==============================
+Depreciation: 0.025
+Current month: 16, Month: 60
+Loan - Car price: 22000 - 12228.5
+==============================
+Depreciation: 0.025
+Current month: 17, Month: 60
+Loan - Car price: 21500 - 11922.8
+==============================
+Depreciation: 0.025
+Current month: 18, Month: 60
+Loan - Car price: 21000 - 11624.7
+==============================
+Depreciation: 0.025
+Current month: 19, Month: 60
+Loan - Car price: 20500 - 11334.1
+==============================
+Depreciation: 0.025
+Current month: 20, Month: 60
+Loan - Car price: 20000 - 11050.7
+==============================
+Depreciation: 0.025
+Current month: 21, Month: 60
+Loan - Car price: 19500 - 10774.5
+==============================
+Depreciation: 0.025
+Current month: 22, Month: 60
+Loan - Car price: 19000 - 10505.1
+==============================
+Depreciation: 0.025
+Current month: 23, Month: 60
+Loan - Car price: 18500 - 10242.5
+==============================
+Depreciation: 0.025
+Current month: 24, Month: 60
+Loan - Car price: 18000 - 9986.41
+==============================
+Depreciation: 0.025
+Current month: 25, Month: 60
+Loan - Car price: 17500 - 9736.75
+==============================
+Depreciation: 0.025
+Current month: 26, Month: 60
+Loan - Car price: 17000 - 9493.33
+==============================
+Depreciation: 0.025
+Current month: 27, Month: 60
+Loan - Car price: 16500 - 9256
+==============================
+Depreciation: 0.025
+Current month: 28, Month: 60
+Loan - Car price: 16000 - 9024.6
+==============================
+Depreciation: 0.025
+Current month: 29, Month: 60
+Loan - Car price: 15500 - 8798.98
+==============================
+Depreciation: 0.025
+Current month: 30, Month: 60
+Loan - Car price: 15000 - 8579.01
+==============================
+Depreciation: 0.025
+Current month: 31, Month: 60
+Loan - Car price: 14500 - 8364.53
+==============================
+Depreciation: 0.025
+Current month: 32, Month: 60
+Loan - Car price: 14000 - 8155.42
+==============================
+Depreciation: 0.025
+Current month: 33, Month: 60
+Loan - Car price: 13500 - 7951.53
+==============================
+Depreciation: 0.025
+Current month: 34, Month: 60
+Loan - Car price: 13000 - 7752.75
+==============================
+Depreciation: 0.025
+Current month: 35, Month: 60
+Loan - Car price: 12500 - 7558.93
+==============================
+Depreciation: 0.025
+Current month: 36, Month: 60
+Loan - Car price: 12000 - 7369.95
+==============================
+Depreciation: 0.025
+Current month: 37, Month: 60
+Loan - Car price: 11500 - 7185.7
+==============================
+Depreciation: 0.025
+Current month: 38, Month: 60
+Loan - Car price: 11000 - 7006.06
+==============================
+Depreciation: 0.025
+Current month: 39, Month: 60
+Loan - Car price: 10500 - 6830.91
+==============================
+Depreciation: 0.025
+Current month: 40, Month: 60
+Loan - Car price: 10000 - 6660.14
+==============================
+Depreciation: 0.025
+Current month: 41, Month: 60
+Loan - Car price: 9500 - 6493.63
+==============================
+Depreciation: 0.025
+Current month: 42, Month: 60
+Loan - Car price: 9000 - 6331.29
+==============================
+Depreciation: 0.025
+Current month: 43, Month: 60
+Loan - Car price: 8500 - 6173.01
+==============================
+Depreciation: 0.025
+Current month: 44, Month: 60
+Loan - Car price: 8000 - 6018.69
+==============================
+Depreciation: 0.025
+Current month: 45, Month: 60
+Loan - Car price: 7500 - 5868.22
+==============================
+Depreciation: 0.025
+Current month: 46, Month: 60
+Loan - Car price: 7000 - 5721.51
+==============================
+Depreciation: 0.025
+Current month: 47, Month: 60
+Loan - Car price: 6500 - 5578.48
+==============================
+Depreciation: 0.025
+Current month: 48, Month: 60
+Loan - Car price: 6000 - 5439.01
+==============================
+Depreciation: 0.025
+Current month: 49, Month: 60
+Loan - Car price: 5500 - 5303.04
+==============================
+Depreciation: 0.025
+Current month: 50, Month: 60
+Loan - Car price: 5000 - 5170.46
+==============================
+Months: 50
+
+
+time taken : 0.005442 secs
