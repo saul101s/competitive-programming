@@ -4,7 +4,7 @@ using namespace std;
 void solve();
 
 int months, records;
-float payment, loan;
+float payment_down, loan;
 
 int main()
 {
@@ -17,14 +17,14 @@ int main()
     freopen("error.txt", "w", stderr);
     #endif
 
-    scanf("%d %f %f %d", &months, &payment, &loan, &records);
+    scanf("%d %f %f %d", &months, &payment_down, &loan, &records);
 
     while (months > 0)
     {
         solve();
         printf("\n");
         
-        scanf("%d %f %f %d", &months, &payment, &loan, &records);
+        scanf("%d %f %f %d", &months, &payment_down, &loan, &records);
     }
 
     cerr << "time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
@@ -35,21 +35,19 @@ void solve()
 {
 	int next_rec_month, current_month = 0;
 	float next_rec_dep, current_dep = 0, current_loan = loan;
-	float car_price = loan + payment;
-	
-	cerr << "Car price: " << car_price << endl;
+	float car_price = loan + payment_down;
+	float month_payment = (float)loan / months;
 	
 	// Car month 0 depreciation
 	
 	scanf("%d %f", &next_rec_month, &next_rec_dep);
 	records--;
-	car_price -= car_price * next_rec_dep;
-	
-	cerr << "Car price after driving: " << car_price << endl;
+	car_price *= (1 - next_rec_dep);
 	
 	if (current_loan < car_price)
 	{
 		printf("%d months", current_month);
+		
 		while (records--)
 		{
 			scanf("%d %f", &next_rec_month, &next_rec_dep);
@@ -66,17 +64,10 @@ void solve()
 	{
 		scanf("%d %f", &next_rec_month, &next_rec_dep);
 		
-		cerr << "Next rec: " << next_rec_month << " - " << next_rec_dep << endl;
-		
 		while (current_month < next_rec_month)
-		{	
-			current_loan -= payment;
-			car_price -= car_price * current_dep;
-			
-			cerr << "Depreciation: " << current_dep << endl;
-			cerr << "Current month: " << current_month << ", Record month: " << next_rec_month << endl;
-			cerr << "Loan - Car price: " << current_loan << " - " << car_price << endl;
-			cerr << "==============================" << endl;
+		{
+			current_loan -= month_payment;
+			car_price *= (1 - current_dep);
 			
 			if (current_loan < car_price)
 			{
@@ -88,8 +79,7 @@ void solve()
 				{
 					printf("%d months", current_month);
 				}
-				
-				cerr << "Months: " << current_month << endl << endl << endl;
+
 				while (records--)
 				{
 					scanf("%d %f", &next_rec_month, &next_rec_dep);
@@ -97,7 +87,7 @@ void solve()
 				
 				return;
 			}
-			
+
 			current_month++;
 		}
 		
@@ -106,19 +96,12 @@ void solve()
 	
 	while (current_month < months)
 	{
-		current_loan -= payment;
-		car_price -= car_price * current_dep;
-		
-		cerr << "Depreciation: " << current_dep << endl;
-		cerr << "Current month: " << current_month << ", Month: " << months << endl;
-		cerr << "Loan - Car price: " << current_loan << " - " << car_price << endl;
-		cerr << "==============================" << endl;
+		current_loan -= month_payment;
+		car_price *= (1 - current_dep);
 		
 		if (current_loan < car_price)
 		{
 			printf("%d months", current_month);
-				
-			cerr << "Months: " << current_month << endl << endl << endl;
 			return;
 		}
 		
