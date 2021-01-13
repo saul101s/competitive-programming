@@ -21,7 +21,7 @@ int main()
 
     scanf("%d %d\n", &reqs, &opts);
 
-    while (reqs && opts)
+    while (reqs || opts)
     {
         solve();
         printf("\n");
