@@ -3,10 +3,10 @@
 filename=$1
 extension="${filename##*.}"
 
-if [ -e filename ]; then
+if [ -e $filename ]; then
     echo "File $1 already exists"
 else
-    cp ~/Developer/competitive-programming/templates/competitive-template.$extension ./filename
+    cp ~/Developer/competitive-programming/templates/competitive-template.$extension ./$filename
 fi
 
 if [ -e input.txt ]; then
@@ -27,4 +27,4 @@ else
     touch error.txt
 fi
 
-geany filename &
+geany $filename input.txt output.txt &

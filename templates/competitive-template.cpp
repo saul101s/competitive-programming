@@ -1,7 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void solve();
+void solve()
+{
+
+}
 
 int main()
 {
@@ -15,19 +18,14 @@ int main()
     #endif
 
     int t = 1;
-    scanf("%d", &t);
+    cin >> t;
 
     while (t--)
     {
         solve();
-        printf("\n");
+        cout << "\n";
     }
 
     cerr << "time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
     return 0;
-}
-
-void solve()
-{
-
 }
