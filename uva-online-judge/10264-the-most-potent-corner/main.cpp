@@ -42,7 +42,6 @@ void solve()
 		}
 	}
 	
-	
 	cout << max_potency;
 }
 
