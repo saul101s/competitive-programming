@@ -44,7 +44,7 @@ void solve()
 	submit sub;
 	string input;
 	stringstream ss;
-	team v[CONTESTANTS + 1];
+	team v[CONTESTANTS];
 	vector<team> teams;
 	
 	for (int i = 0; i < CONTESTANTS; i++)
@@ -55,7 +55,6 @@ void solve()
 			v[i].is_problem_solved[j] = false;
 			v[i].incorrect_tries[j] = 0;
 		}
-		
 	}
 	
 	
