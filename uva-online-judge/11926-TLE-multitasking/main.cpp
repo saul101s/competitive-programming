@@ -16,7 +16,6 @@ void solve()
 		
 		for (int i = start; i < end && !conflict; i++)
 		{
-			// Test conflict
 			if (minutes.test(i))
 			{
 				conflict = true;
@@ -36,7 +35,6 @@ void solve()
 		{
 			for (int i = start; i < end && !conflict; i++)
 			{
-				// Test conflict
 				if (minutes.test(i))
 				{
 					conflict = true;
