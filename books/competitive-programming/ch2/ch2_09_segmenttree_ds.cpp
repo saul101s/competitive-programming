@@ -42,7 +42,7 @@ private: vi st, A;            // recall that vi is: typedef vector<int> vi;
     // if the current interval is included in the update range,
     // update that st[node]
     if (L == R) {
-      A[i] = new_value; // update the underlying array
+      A[L] = new_value; // update the underlying array
       return st[p] = L; // this index
     }
 
