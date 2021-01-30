@@ -4,5 +4,5 @@
 # Unignore all with extensions
 !*.*
 
-# Ignore .txt
-*.txt
+# Ignore .txt inside uva-online-judge folder
+uva-online-judge/**/*.txt
