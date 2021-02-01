@@ -1,8 +1,1 @@
-# Ignore all
-*
 
-# Unignore all with extensions
-!*.*
-
-# Ignore .txt inside uva-online-judge folder
-uva-online-judge/**/*.txt
