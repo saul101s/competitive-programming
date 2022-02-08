@@ -30,7 +30,6 @@ public:
     for (; k < (int)ft.size(); k += LSOne(k)) ft[k] += v; }
 };
 
-vi v;
 int N = 0;
 int c = 1;
 
@@ -93,7 +92,6 @@ int main()
   while (N)
   {
     solve();
-    v.clear();
     
     cin >> N;
     
